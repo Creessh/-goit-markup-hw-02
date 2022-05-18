@@ -1,0 +1,62 @@
+body {
+    font-family: "Roboto";
+    font-weight: 700;
+    position: relative;
+width: 1600px;
+height: 1880px
+}
+.button-item {text-align: center;}
+.button {font-size: 16px; 
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+line-height: 26px;
+text-align: center;
+color: #212121}
+.contacts {position:absolute;width: 500px;}
+.header {background-color:#fff;position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.portfolio {
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+text-align: center}
+
+.images {list-style: none;
+    text-align: center;
+     display: flex;
+     flex-wrap: wrap;}
+
+
+.link {display: inline;}
+
+.link-item {list-style: none;}
+
+
+
+
+
+
+
+.logo {color: #00f;
+font-size: 26px; font-weight: 700;font-family:"Raleway";}
+.studio  {color: #fff;
+    font-size: 26px; font-weight: 700;font-family:"Raleway";}
+
+
+
+
+footer{position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+
+background: #2F303A;}
