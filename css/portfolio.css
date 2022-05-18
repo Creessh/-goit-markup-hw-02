@@ -1,6 +1,4 @@
-body {
-    font-family: "Roboto";
-    font-weight: 700;
+body {background-color:white;
     position: relative;
 width: 1600px;
 height: 1880px
@@ -12,14 +10,14 @@ height: 1880px
     font-style: normal;
 line-height: 26px;
 text-align: center;
-color: #212121}
-.contacts {position:absolute;width: 500px;}
+color: #212121;}
+
 .header {background-color:#fff;position: absolute;
     width: 1600px;
     height: 80px;
     left: 0px;
-    top: 0px;
-}
+    top: 0px;}
+ 
 
 .portfolio {
     position: absolute;
@@ -28,6 +26,8 @@ color: #212121}
     left: 215px;
     top: 174px;
 text-align: center}
+
+.pic {box-sizing: border-box; margin:1px; position: relative;}
 
 .images {list-style: none;
     text-align: center;
