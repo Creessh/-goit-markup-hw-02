@@ -1,8 +1,13 @@
-body {background-color:white;
-    position: relative;
-width: 1600px;
-height: 1880px
-}
+body {position: absolute;
+    width: 1600px;
+    height: 1880px;
+    margin: 0;
+    background: #E5E5E5;
+    justify-content: center;}
+    
+.navigation {display: flex;
+justify-content: center;
+ ;}
 .button-item {text-align: center;}
 .button {font-size: 16px; 
     font-family: "Roboto";
@@ -10,13 +15,26 @@ height: 1880px
     font-style: normal;
 line-height: 26px;
 text-align: center;
-color: #212121;}
+color: #212121;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+transition:linear;
+cursor: pointer;
+}
 
-.header {background-color:#fff;position: absolute;
-    width: 1600px;
+button:hover {color: #fff; 
+background-color: #00f;
+;}
+button:focus {color: #fff; 
+    background-color: #00f;
+    ;}
+
+.header {background-color:#fff;position: relative;
+    display: flex;
     height: 80px;
     left: 0px;
-    top: 0px;}
+    top: 0px;
+padding-top: 25px;}
  
 
 .portfolio {
@@ -25,31 +43,47 @@ color: #212121;}
     height: 1360px;
     left: 215px;
     top: 174px;
-text-align: center}
+justify-content: center;}
 
-.pic {box-sizing: border-box; margin:1px; position: relative;}
+.pic { }
 
 .images {list-style: none;
+
+    margin-left: 4px;
     text-align: center;
      display: flex;
      flex-wrap: wrap;}
 
+.contacts {list-style: none;margin-left: 190px;}
+.link {display: inline; 
+    font-family:"Roboto",sans-serif;
+    margin: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.contacts-item {display: inline;margin: 50px;}
+.link-item {list-style: none;
+    }
 
-.link {display: inline;}
+a {text-decoration: none;}
 
-.link-item {list-style: none;}
-
-
-
+a:hover {color: #00ff00;}
 
 
 
 
 .logo {color: #00f;
+    
 font-size: 26px; font-weight: 700;font-family:"Raleway";}
-.studio  {color: #fff;
-    font-size: 26px; font-weight: 700;font-family:"Raleway";}
-
+.studio  {color: #000000; 
+    text-decoration: none;
+     font-family:"Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+margin-right: 40px;}
+    .studio:hover {color: #666;}
+.logo:hover {color:#666}
 
 
 
